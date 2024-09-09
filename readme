@@ -1,0 +1,43 @@
+# Sistema de Gerenciamento de Eventos
+
+Este projeto consiste em um sistema de gerenciamento de eventos desenvolvido em SQL. O sistema gerencia informações sobre eventos, participantes e inscrições, oferecendo funcionalidades para a criação, consulta, atualização e exclusão de dados.
+
+## Funcionalidades
+
+- **Gerenciamento de Eventos**: Armazena informações sobre eventos, incluindo nome, data e local.
+- **Gerenciamento de Participantes**: Armazena informações sobre participantes, incluindo nome e email.
+- **Gerenciamento de Inscrições**: Registra inscrições de participantes em eventos.
+- **Consultas**: Permite consultar eventos, participantes e detalhes das inscrições.
+- **Atualizações e Exclusões**: Possibilita atualizar informações de eventos e participantes, e excluir inscrições e registros de participantes.
+
+## Estrutura do Projeto
+
+1. **Criação do Banco de Dados**: 
+   - `CREATE DATABASE SistemaGerenciamentoEventos;`
+   - `USE SistemaGerenciamentoEventos;`
+
+2. **Criação das Tabelas**:
+   - Tabela `Eventos`: Armazena dados dos eventos.
+   - Tabela `Participantes`: Armazena dados dos participantes.
+   - Tabela `Inscricoes`: Registra as inscrições dos participantes em eventos.
+
+3. **Inserção de Dados**:
+   - Inserção de eventos, participantes e inscrições iniciais.
+
+4. **Consultas**:
+   - Consultar todos os eventos, participantes e inscrições.
+   - Consultar inscrições com detalhes do evento e participante.
+
+5. **Atualizações e Exclusões**:
+   - Atualizar informações de eventos e participantes.
+   - Excluir inscrições e participantes.
+
+## Tecnologias Utilizadas
+
+- **SQL**: Utilizado para a criação e manipulação do banco de dados.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/usuario/sistema-gerenciamento-eventos.git
