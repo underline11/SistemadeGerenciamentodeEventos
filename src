@@ -1,0 +1,27 @@
+
+### .gitignore
+
+```gitignore
+# Ignore arquivos de backup e temporários
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# Ignore arquivos específicos de ambiente de desenvolvimento
+.env
+.vscode/
+.idea/
+
+# Ignore logs e arquivos de debug
+*.log
+*.err
+*.out
+
+# Ignore diretórios de dependências
+node_modules/
+vendor/
+
+# Ignore arquivos de banco de dados locais
+*.db
+*.sql
